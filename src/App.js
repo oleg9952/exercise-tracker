@@ -1,4 +1,6 @@
-import React from 'react';
+import * as React from 'react';
+import {NavigationContainer, useNavigation} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import styled from 'styled-components/native';
 
 const StyledView = styled.View`
@@ -14,11 +16,34 @@ const StyledText = styled.Text`
   font-size: 25px;
 `;
 
-const App = () => {
+const {Navigator, Screen} = createNativeStackNavigator();
+
+const Home = () => {
+  const {navigate} = useNavigation();
   return (
     <StyledView>
-      <StyledText>App</StyledText>
+      <StyledText>Home</StyledText>
+      <StyledText onPress={() => navigate('About')}>Go about</StyledText>
     </StyledView>
+  );
+};
+
+const About = () => {
+  return (
+    <StyledView>
+      <StyledText>About</StyledText>
+    </StyledView>
+  );
+};
+
+const App = () => {
+  return (
+    <NavigationContainer>
+      <Navigator>
+        <Screen name="Home" component={Home} />
+        <Screen name="About" component={About} />
+      </Navigator>
+    </NavigationContainer>
   );
 };
 
