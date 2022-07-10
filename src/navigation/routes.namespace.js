@@ -1,4 +1,4 @@
-export const stackRoutes = {
+export const StackRoutes = {
   home: 'Home',
   training: 'Training',
 };

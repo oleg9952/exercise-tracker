@@ -1,14 +1,18 @@
-import {Text} from 'react-native';
 import React from 'react';
-import {Container} from './header.styled';
-import {Padding} from '../layout/padding';
+import Icon from 'react-native-vector-icons/Entypo';
+import IconX from 'react-native-vector-icons/MaterialCommunityIcons';
+import {Container, Section, Title} from './header.styled';
 
-const HeaderComponent = () => {
+const HeaderComponent = ({title}) => {
   return (
     <Container>
-      <Padding>
-        <Text>Hello World</Text>
-      </Padding>
+      <Section>
+        <Icon name={'menu'} size={35} color={'#000'} />
+      </Section>
+      <Title>{title}</Title>
+      <Section align={'flex-end'}>
+        <IconX name="theme-light-dark" size={35} />
+      </Section>
     </Container>
   );
 };

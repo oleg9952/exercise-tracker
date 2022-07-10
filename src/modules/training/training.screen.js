@@ -1,17 +1,21 @@
-import {View, Text} from 'react-native';
 import React from 'react';
+import {Typography} from '../../shared/components/typography';
+import {PrimaryLayout} from '../../shared/layouts/primary-layout';
 
 const TrainingScreenComponent = () => {
   return (
-    <View>
-      <Text>training.screen</Text>
-    </View>
+    <PrimaryLayout>
+      <Typography>Training Screen</Typography>
+    </PrimaryLayout>
   );
 };
 
 export const useTrainingScreenOptions = () => ({
   component: TrainingScreenComponent,
-  options: {},
+  options: {
+    headerShown: true,
+    title: 'Training Details',
+  },
 });
 
 export default TrainingScreenComponent;

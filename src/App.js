@@ -1,8 +1,7 @@
 import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {useStackRoutes} from './navigation/routes';
-import {useDefaultScreenOptions} from './navigation/routes.utils';
+import {useStackRoutes, useDefaultScreenOptions} from './navigation';
 
 const {Navigator, Screen} = createNativeStackNavigator();
 

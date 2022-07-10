@@ -1,4 +1,9 @@
 export const useDefaultScreenOptions = () => ({
   headerShown: false,
-  title: '',
+  headerTitleAlign: 'center',
+  headerTintColor: '#000',
+  headerTitleStyle: {fontSize: 20, fontWeight: 'bold'},
+  statusBarColor: '#fff',
+  statusBarStyle: 'dark',
+  animation: 'slide_from_right',
 });
