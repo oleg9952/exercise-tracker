@@ -3,7 +3,7 @@ import {withSideInsets} from '../../styles/mixins';
 import {Typography, TypographyVariants} from '../typography';
 
 export const Container = styled.View`
-  background-color: #fff;
+  background-color: ${({theme}) => theme?.palettes?.common?.white};
   height: 56px;
   width: 100%;
   elevation: 1;

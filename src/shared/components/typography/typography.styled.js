@@ -3,21 +3,21 @@ import {TypographyVariants} from './typography.namespace';
 
 const H1 = css`
   font-weight: bold;
-  font-size: 30px;
+  font-size: ${({theme: {typography}}) => typography?.fontSize?.h1}px;
 `;
 
 const H2 = css`
   font-weight: bold;
-  font-size: 25px;
+  font-size: ${({theme: {typography}}) => typography?.fontSize?.h2}px;
 `;
 
 const H3 = css`
   font-weight: bold;
-  font-size: 20px;
+  font-size: ${({theme: {typography}}) => typography?.fontSize?.h3}px;
 `;
 
 const P = css`
-  font-size: 14px;
+  font-size: ${({theme: {typography}}) => typography?.fontSize?.p}px;
 `;
 
 const I = css`
