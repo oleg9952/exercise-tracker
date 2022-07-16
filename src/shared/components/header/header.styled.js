@@ -13,7 +13,7 @@ export const Container = styled.View`
   ${withSideInsets()}
 `;
 
-export const Section = styled.View`
+export const Section = styled.TouchableOpacity`
   max-width: 50px;
   flex-direction: row;
   justify-content: ${({align}) => align ?? 'flex-start'};

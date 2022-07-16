@@ -4,7 +4,7 @@ import IconX from 'react-native-vector-icons/MaterialCommunityIcons';
 import {useTheme} from 'styled-components/native';
 import {Container, Section, Title} from './header.styled';
 
-const HeaderComponent = ({title}) => {
+const HeaderComponent = ({navigation, title}) => {
   const theme = useTheme() ?? {};
 
   const iconSize = theme?.typography?.iconSize?.header;
@@ -16,6 +16,7 @@ const HeaderComponent = ({title}) => {
           name={'menu'}
           size={iconSize}
           color={theme?.palettes?.common?.black}
+          onPress={() => navigation.openDrawer()}
         />
       </Section>
       <Title>{title}</Title>

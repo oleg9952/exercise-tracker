@@ -1,25 +1,26 @@
 import React from 'react';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {useStackRoutes} from './navigation/routes';
-import {useDefaultScreenOptions} from './navigation/routes.utils';
+import {createDrawerNavigator} from '@react-navigation/drawer';
+import {HomeStack} from './navigation/stacks';
+import {useDrawerRoutes} from './navigation/routes.drawer';
+import {useDefaultScreenOptions} from './navigation';
 
-const {Navigator, Screen} = createNativeStackNavigator();
+const Drawer = createDrawerNavigator();
 
 const Main = () => {
-  const routes = useStackRoutes();
+  const routes = useDrawerRoutes();
   const defaultScreenOptions = useDefaultScreenOptions();
 
   return (
-    <Navigator screenOptions={defaultScreenOptions}>
+    <Drawer.Navigator screenOptions={defaultScreenOptions}>
       {Object.entries(routes).map(([routeName, {component, options}]) => (
-        <Screen
+        <Drawer.Screen
           key={routeName}
           name={routeName}
           component={component}
           options={{...options}}
         />
       ))}
-    </Navigator>
+    </Drawer.Navigator>
   );
 };
 

@@ -9,18 +9,14 @@ import {
 import {ListItem} from '../../shared/components/list-item';
 import {Space} from './home.styled';
 
-const HomeScreenComponent = () => {
+const HomeScreenComponent = props => {
   const headerConfig = useHeaderConfig({title: 'Training Schedule'});
 
-  useFocusEffect(() => {
-    console.log(1);
-    return () => {
-      console.log(2);
-    };
-  });
-
   return (
-    <PrimaryLayout showHeader={true} headerConfig={headerConfig}>
+    <PrimaryLayout
+      navigation={props?.navigation}
+      showHeader={true}
+      headerConfig={headerConfig}>
       <Typography variant={TypographyVariants.H3}>Section Title</Typography>
       <Space size={15} />
       <ListItem />
