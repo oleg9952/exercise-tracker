@@ -7,6 +7,7 @@ const TypographyComponent = ({
   variant = TypographyVariants.P,
   size,
   color,
+  style,
   children = '',
 }) => {
   const theme = useTheme();
@@ -14,7 +15,8 @@ const TypographyComponent = ({
     <Text
       size={size}
       color={color ?? theme?.palettes?.common?.black}
-      variant={variant}>
+      variant={variant}
+      style={style}>
       {children}
     </Text>
   );

@@ -1,0 +1,34 @@
+{
+    "timeLineItems": [
+        {
+            "title": "Item 1",
+            "time": "18:43",
+            "attempts": 3,
+            "repetitions": 15
+        },
+        {
+            "title": "Item 2",
+            "time": "18:10",
+            "attempts": 5,
+            "repetitions": 10
+        },
+        {
+            "title": "Item 3",
+            "time": "18:34",
+            "attempts": 2,
+            "repetitions": 13
+        },
+        {
+            "title": "Item 4",
+            "time": "17:20",
+            "attempts": 1,
+            "repetitions": 17
+        },
+        {
+            "title": "Item 5",
+            "time": "19:45",
+            "attempts": 6,
+            "repetitions": 7
+        }
+    ]
+}

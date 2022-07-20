@@ -1,6 +1,6 @@
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {useHomeStackRoutes} from '../routes.stack';
+import {useHomeStackRoutes} from '../routes/routes.stack';
 import {useDefaultScreenOptions} from '../routes.utils';
 
 const {Navigator, Screen} = createNativeStackNavigator();

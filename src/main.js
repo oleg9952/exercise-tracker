@@ -1,7 +1,6 @@
 import React from 'react';
 import {createDrawerNavigator} from '@react-navigation/drawer';
-import {HomeStack} from './navigation/stacks';
-import {useDrawerRoutes} from './navigation/routes.drawer';
+import {useDrawerRoutes} from './navigation/routes/routes.drawer';
 import {useDefaultScreenOptions} from './navigation';
 
 const Drawer = createDrawerNavigator();
