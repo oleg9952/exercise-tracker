@@ -1,12 +1,14 @@
 import styled from 'styled-components/native';
-import {withSideInsets} from '../../styles/mixins';
 
 export const PageContainer = styled.View`
   flex: 1;
   background-color: #ebebeb;
 `;
 
-export const Content = styled.View`
-  padding-top: 10px;
-  ${withSideInsets({value: 20})}
-`;
+export const Content = styled.ScrollView.attrs({
+  contentContainerStyle: {
+    paddingHorizontal: 20,
+    paddingTop: 10,
+    paddingBottom: 10,
+  },
+})``;

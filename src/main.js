@@ -10,7 +10,8 @@ const Main = () => {
   const defaultScreenOptions = useDefaultScreenOptions();
 
   return (
-    <Drawer.Navigator screenOptions={defaultScreenOptions}>
+    <Drawer.Navigator
+      screenOptions={{...defaultScreenOptions, swipeEdgeWidth: 0}}>
       {Object.entries(routes).map(([routeName, {component, options}]) => (
         <Drawer.Screen
           key={routeName}
