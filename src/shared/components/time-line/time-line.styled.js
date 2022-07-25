@@ -31,7 +31,7 @@ export const TimeLineCircleWrapper = styled.View`
   width: 10px;
   height: 20px;
   transform: translate(-2.5px, -10px);
-  background-color: #${({theme}) => theme?.palettes?.common?.white};
+  background-color: ${({theme}) => theme?.palettes?.common?.white};
 `;
 
 export const TimeLineCircle = styled.View`
@@ -41,7 +41,7 @@ export const TimeLineCircle = styled.View`
   width: 10px;
   height: 10px;
   border-radius: 5px;
-  transform: translate(-4px, -5px);
+  transform: translate(-3px, -5px);
   background-color: ${({theme}) => theme?.palettes?.common?.black};
 `;
 

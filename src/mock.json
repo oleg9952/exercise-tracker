@@ -30,5 +30,140 @@
             "attempts": 6,
             "repetitions": 7
         }
+    ],
+    "sliderData": [
+        {
+            "activityTitle": "Basketball",
+            "timeOfStart": "18:00",
+            "timeOfEnd": "20:00",
+            "date": "18.08.2022",
+            "activityType": "basketball",
+            "img_url": "https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(webp):focal(1247x810:1249x808)/origin-imgresizer.eurosport.com/2021/07/28/3184845-65252168-2560-1440.jpg",
+            "participants": [
+                {
+                    "name": "Vlad"
+                },
+                {
+                    "name": "Andrii"
+                },
+                {
+                    "name": "Alex"
+                }
+            ]
+        },
+        {
+            "activityTitle": "Football",
+            "timeOfStart": "20:00",
+            "timeOfEnd": "21:00",
+            "date": "20.08.2022",
+            "activityType": "football",
+            "img_url": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F420e7555-72a1-4843-8326-26e602b3700e.jpg?dpr=1&fit=scale-down&source=next&width=700",
+            "participants": [
+                {
+                    "name": "Vlad"
+                },
+                {
+                    "name": "Andrii"
+                },
+                {
+                    "name": "Alex"
+                }
+            ]
+        },
+        {
+            "activityTitle": "Parallel Bars",
+            "timeOfStart": "17:00",
+            "timeOfEnd": "21:00",
+            "date": "23.08.2022",
+            "activityType": "parallelBars",
+            "img_url": "https://i.ytimg.com/vi/H2DEgNWCtJk/maxresdefault.jpg",
+            "participants": [
+                {
+                    "name": "Vlad"
+                },
+                {
+                    "name": "Andrii"
+                },
+                {
+                    "name": "Alex"
+                }
+            ]
+        },
+        {
+            "activityTitle": "Horizontal Bar",
+            "timeOfStart": "17:00",
+            "timeOfEnd": "20:00",
+            "date": "26.08.2022",
+            "activityType": "horizontalBar",
+            "img_url": "https://thumbs.dreamstime.com/z/muscular-man-doing-pull-up-horizontal-bar-gym-working-out-strong-fitness-male-pulling-up-showing-back-muscular-man-doing-134492292.jpg",
+            "participants": [
+                {
+                    "name": "Vlad"
+                },
+                {
+                    "name": "Andrii"
+                },
+                {
+                    "name": "Alex"
+                }
+            ]
+        },
+        {
+            "activityTitle": "Pushups",
+            "timeOfStart": "17:00",
+            "timeOfEnd": "20:00",
+            "date": "26.08.2022",
+            "activityType": "pushups",
+            "img_url": "https://blog.nasm.org/hubfs/power-pushups.jpg",
+            "participants": [
+                {
+                    "name": "Vlad"
+                },
+                {
+                    "name": "Andrii"
+                },
+                {
+                    "name": "Alex"
+                }
+            ]
+        },
+        {
+            "activityTitle": "Dumbbell",
+            "timeOfStart": "17:00",
+            "timeOfEnd": "20:00",
+            "date": "26.08.2022",
+            "activityType": "dumbbell",
+            "img_url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/exercise-with-weights-royalty-free-image-587204700-1547584208.jpg?crop=0.695xw:1.00xh;0.0923xw,0&resize=980:*",
+            "participants": [
+                {
+                    "name": "Vlad"
+                },
+                {
+                    "name": "Andrii"
+                },
+                {
+                    "name": "Alex"
+                }
+            ]
+        },
+        {
+            "activityTitle": "Crunch",
+            "timeOfStart": "17:00",
+            "timeOfEnd": "20:00",
+            "date": "26.08.2022",
+            "activityType": "crunch",
+            "img_url": "https://cdn.shopify.com/s/files/1/1944/0163/articles/man-doing-crunches-on-mat_1140x.jpg?v=1591745759",
+            "participants": [
+                {
+                    "name": "Vlad"
+                },
+                {
+                    "name": "Andrii"
+                },
+                {
+                    "name": "Alex"
+                }
+            ]
+        }
     ]
 }
